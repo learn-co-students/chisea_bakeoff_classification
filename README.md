@@ -6,7 +6,7 @@
 
 The goal for this challenge is to predict whether a person will default on their loan. In doing so, we want to utilize all of the different tools we have learned over the course: data cleaning, EDA, feature engineering/transformation, feature selection, hyperparameter tuning, and model evaluation.
 
-The dataset comes from customers default payments in Taiwan.
+The dataset comes from customers default payments.
 ## Data Files
 
 In this repo, just as before, you will find two csv files.
@@ -15,7 +15,7 @@ In this repo, just as before, you will find two csv files.
 This includes the features and target variables that you will use to train a predictive model
 
 2. `test_features.csv`
-This includes a testing set of data with the `defualt payment next month` column removed. You will make your final predictions on these observations and submit the predictions as a csv file.
+This includes a testing set of data with the `default payment next month` column removed. You will make your final predictions on these observations and submit the predictions as a csv file.
 
 ## Feature Descriptions
 
@@ -59,11 +59,11 @@ Save your predictions in a .csv file with the following pattern.
 ...
 
 - You will be given **3 hours** to build your best model using the training data. There is a hard cuttoff at 3 hours. Any late submissions will not be considered. 
-- Slack your .csv file to the `seattle-chicago-ds-012720` channel before time is up. Any submissions after the 3 hour deadline will be evaluated, but not included in the judging.
+- Slack your .csv file to the `seattle-chicago-ds-012720` channel as a comment to a Bake Off Message. Any submissions after the 3 hour deadline will be evaluated, but not included in the judging.
 
 ## Metrics
-Test results will be scored by F1-score. The group which submitted the predictions with the highest F1-score will be announced Monday morning. As a reward, they will receive a round of applause. 
+Test results will be scored by F1-score. The group that submits the predictions with the highest F1-score will be announced Monday morning. As a reward, they will receive a round of applause. 
 
 ## Share
-- After submission, push your repo with your work to your forked repo. In this way, your peers will be able to gain valuable wisdom from the different tactics employed.
+- After submission, push your repo with your work to your forked repo! In this way, your peers will be able to gain valuable wisdom from the different tactics employed!
 
